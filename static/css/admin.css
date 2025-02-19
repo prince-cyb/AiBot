@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #0088CC;
+    --secondary-color: #FF69B4;
+    --background-color: #FFFFFF;
+    --text-color: #333333;
+    --accent-color: #E8F5FD;
+    --error-color: #dc3545;
+    --success-color: #198754;
+    --warning-color: #ffc107;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #006699;
+    border-color: #006699;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+textarea.form-control:focus,
+input.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 204, 0.25);
+}
+
+.alert {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.alert-danger {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-color: var(--error-color);
+    color: var(--error-color);
+}
+
+.alert-success {
+    background-color: rgba(25, 135, 84, 0.1);
+    border-color: var(--success-color);
+    color: var(--success-color);
+}
+
+.alert-warning {
+    background-color: rgba(255, 193, 7, 0.1);
+    border-color: var(--warning-color);
+    color: #856404;
+}
+
+.text-danger {
+    color: var(--error-color) !important;
+}
+
+/* Error page specific styles */
+.error-page {
+    text-align: center;
+    padding: 2rem;
+}
+
+.error-page .btn {
+    margin: 0.5rem;
+}
