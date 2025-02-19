@@ -28,7 +28,7 @@ AiBot is a Python-based AI-powered Telegram bot that interacts with users throug
    - Add the required API keys (Example format):
      ```env
      TELEGRAM_BOT_TOKEN=your_telegram_token
-     OPENAI_API_KEY=your_openai_api_key  # If using OpenAI for AI responses
+     GEMINI_API_KEY=your_geminiai_api_key  # If using GEMINIAI for AI responses
      ```
 4. **Run the bot**
    ```bash
